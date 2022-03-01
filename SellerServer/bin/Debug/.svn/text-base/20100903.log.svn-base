@@ -1,5 +1,0 @@
-call updatestoreroom ('5','40403','6')
-消息队列插入数据异常//insert currentsales(dyname,salesdate,salesum) values ('caihexin','2010-9-3 16:52:16','24')//
- 文件“e:\我的文档\Visual Studio 2005\Projects\NativeSeller-HM\SellerServer\bin\Debug\20100903.log”正由另一进程使用，因此该进程无法访问该文件。
-消息队列插入数据异常//insert vipxiaofei(vipnum,xfdz,obnamedm,unitprice,xfnum,xfsum,dmdm,obname)  values('10006','2010-09-03-16:51:4910006','40403','4','6','24','5','芝麻饼')//
- 文件“e:\我的文档\Visual Studio 2005\Projects\NativeSeller-HM\SellerServer\bin\Debug\20100903.log”正由另一进程使用，因此该进程无法访问该文件。
