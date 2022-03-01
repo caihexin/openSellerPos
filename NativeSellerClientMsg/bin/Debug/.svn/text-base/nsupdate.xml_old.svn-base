@@ -1,0 +1,38 @@
+<seller>
+<update>
+<reportxiaofei> 
+START   TRANSACTION;
+DROP VIEW IF EXISTS `reportxiaofei`;
+
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `reportxiaofei` AS select `vipxiaofei`.`id` AS `id`,`vipxiaofei`.`VipNum` AS `VipNum`,`vipxiaofei`.`XfDZ` AS `XfDZ`,`vipxiaofei`.`ObNameDm` AS `ObNameDm`,`vipxiaofei`.`UnitPrice` AS `UnitPrice`,`vipxiaofei`.`XfNum` AS `XfNum`,`vipxiaofei`.`XfSuM` AS `XfSuM`,`vipxiaofei`.`dmdm` AS `dmdm`,`vipxiaofei`.`obname` AS `obname`,substr(`vipxiaofei`.`XfDZ`,1,10) AS `d`,substr(`vipxiaofei`.`XfDZ`,12,2) AS `h`,substr(`vipxiaofei`.`ObNameDm`,1,1) AS `splb` from `vipxiaofei`;
+
+DROP PROCEDURE IF EXISTS `UpdateXfJiFen`;
+
+DELIMITER $$
+
+CREATE DEFINER=`root`@`localhost` PROCEDURE `UpdateXfJiFen`(
+_vipnum char(5),
+_xfjf int(10)
+
+)
+BEGIN
+
+             if  not exists (select * from vipxiaofeijifen where vipnum =_vipnum) then
+
+             insert into vipxiaofeijifen(vipnum,xfjf) values(_vipnum,_xfjf);
+
+             else
+
+             update vipxiaofeijifen set xfjf=xfjf + _xfjf where vipnum=_vipnum ;
+
+             end if ;
+
+END $$
+
+DELIMITER ;
+
+
+COMMIT;
+</reportxiaofei>
+</update>
+</seller>

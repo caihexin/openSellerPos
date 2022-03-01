@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IcRw", "IcRw\IcRw.csproj", "{40218854-D41A-4AFB-BBBC-352510628E74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IcIo", "IcIo\IcIo.csproj", "{EABF87BB-6193-42D4-8034-98ED8C2A178C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IcAdmin", "IcAdmin\IcAdmin.csproj", "{BDE58367-B686-48EF-BDE3-2ECACB15F3EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "..\..\dataAccess\DataAccess.csproj", "{82C80441-B883-4A91-851F-01CB9FBD9BEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40218854-D41A-4AFB-BBBC-352510628E74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40218854-D41A-4AFB-BBBC-352510628E74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40218854-D41A-4AFB-BBBC-352510628E74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40218854-D41A-4AFB-BBBC-352510628E74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EABF87BB-6193-42D4-8034-98ED8C2A178C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EABF87BB-6193-42D4-8034-98ED8C2A178C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EABF87BB-6193-42D4-8034-98ED8C2A178C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EABF87BB-6193-42D4-8034-98ED8C2A178C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDE58367-B686-48EF-BDE3-2ECACB15F3EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDE58367-B686-48EF-BDE3-2ECACB15F3EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDE58367-B686-48EF-BDE3-2ECACB15F3EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDE58367-B686-48EF-BDE3-2ECACB15F3EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82C80441-B883-4A91-851F-01CB9FBD9BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82C80441-B883-4A91-851F-01CB9FBD9BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82C80441-B883-4A91-851F-01CB9FBD9BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82C80441-B883-4A91-851F-01CB9FBD9BEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

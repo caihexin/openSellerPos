@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/project/!svn/ver/31/NativeSeller-SZ/SellerClient/bin/Release
+END
+mySql.dll
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/project/!svn/ver/31/NativeSeller-SZ/SellerClient/bin/Release/mySql.dll
+END
+MsMq.pdb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/project/!svn/ver/31/NativeSeller-SZ/SellerClient/bin/Release/MsMq.pdb
+END
+MySQLDriverCS.dll
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/project/!svn/ver/31/NativeSeller-SZ/SellerClient/bin/Release/MySQLDriverCS.dll
+END
+SellerClient.exe
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/project/!svn/ver/31/NativeSeller-SZ/SellerClient/bin/Release/SellerClient.exe
+END
+MsMq.dll
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/project/!svn/ver/31/NativeSeller-SZ/SellerClient/bin/Release/MsMq.dll
+END
+SellerClient.exe.config
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/project/!svn/ver/31/NativeSeller-SZ/SellerClient/bin/Release/SellerClient.exe.config
+END
+SellerClient.pdb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/project/!svn/ver/31/NativeSeller-SZ/SellerClient/bin/Release/SellerClient.pdb
+END
+mySql.pdb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/project/!svn/ver/31/NativeSeller-SZ/SellerClient/bin/Release/mySql.pdb
+END

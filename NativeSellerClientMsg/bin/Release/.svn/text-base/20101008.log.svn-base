@@ -1,0 +1,14 @@
+workOnline远程数据库连接失败localhoat20:44:52
+workOnline远程数据库连接失败localhoat20:45:02
+MsgRemote20:45:45::
+MySQLDriverCS Exception: MySQLDriverCS Error: wrong query.Duplicate entry '0' for key 1
+MsgLocal20:46:36::
+MySQLDriverCS Exception: MySQLDriverCS Error: wrong query.Lock wait timeout exceeded; try restarting transaction
+MsgRemote20:46:46::
+MySQLDriverCS Exception: MySQLDriverCS Error: wrong query.Duplicate entry '0' for key 1
+writemsg20:48:27::MySQLDriverCS Exception: MySQLDriverCS Error: wrong query.Duplicate entry '0' for key 1
+writemsg20:48:27::MySQLDriverCS Exception: MySQLDriverCS Error: wrong query.Duplicate entry '0' for key 1
+writemsg20:48:27::MySQLDriverCS Exception: MySQLDriverCS Error: wrong query.Duplicate entry '0' for key 1
+writemsg20:48:27::MySQLDriverCS Exception: MySQLDriverCS Error: wrong query.Duplicate entry '0' for key 1
+writemsg20:48:27::MySQLDriverCS Exception: MySQLDriverCS Error: wrong query.Duplicate entry '0' for key 1
+writemsg20:48:27::MySQLDriverCS Exception: MySQLDriverCS Error: wrong query.Duplicate entry '0' for key 1
